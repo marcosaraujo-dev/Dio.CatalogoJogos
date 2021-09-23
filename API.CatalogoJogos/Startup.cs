@@ -13,7 +13,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace API.CatalogoJogos
-{
+{ 
     public class Startup
     {
         public Startup(IConfiguration configuration)
