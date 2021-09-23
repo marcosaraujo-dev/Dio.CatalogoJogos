@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.CatalogoJogos", "API.CatalogoJogos.csproj", "{40BA488A-2A52-40EB-AC74-E9FCB2A39E13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.CatalogoJogos", "API.CatalogoJogos.csproj", "{435C40A8-153A-4387-A26F-B3E9DF65699E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40BA488A-2A52-40EB-AC74-E9FCB2A39E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40BA488A-2A52-40EB-AC74-E9FCB2A39E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40BA488A-2A52-40EB-AC74-E9FCB2A39E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40BA488A-2A52-40EB-AC74-E9FCB2A39E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435C40A8-153A-4387-A26F-B3E9DF65699E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435C40A8-153A-4387-A26F-B3E9DF65699E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435C40A8-153A-4387-A26F-B3E9DF65699E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435C40A8-153A-4387-A26F-B3E9DF65699E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {98B31B04-3112-4DED-882E-AD480BBF752E}
+		SolutionGuid = {39CDD885-51AB-4234-A7D9-27B737CECE09}
 	EndGlobalSection
 EndGlobal
