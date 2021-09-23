@@ -49,7 +49,7 @@ namespace API.CatalogoJogos.Controllers.V1
         /// <param name="idJogo">Id do jogo buscado</param>
         /// <response code="200">Retorna o jogo filtrado</response>
         /// <response code="204">Caso não haja jogo com este id</response>
-        [HttpGet("{idJogo:guid}")]
+        [HttpGet("{idJogo:guid}", Name="ObterId")]
         public async Task<ActionResult<JogoViewModel>> Obter([FromRoute] Guid idJogo)
         {
             var jogo = await _jogoService.Obter(idJogo);
@@ -73,8 +73,8 @@ namespace API.CatalogoJogos.Controllers.V1
             try
             {
                 var jogo = await _jogoService.Inserir(jogoInputModel);
-
-                return CreatedAtAction(nameof(Obter), new { id = jogo.Id }, jogo);
+                return CreatedAtRoute("ObterId", new { idJogo = jogo.Id }, jogo);
+                // return CreatedAtAction(nameof(Obter), new { idJogo = jogo.Id }, jogo);
             }
             catch (JogoJaCadastradoException ex)
             {
