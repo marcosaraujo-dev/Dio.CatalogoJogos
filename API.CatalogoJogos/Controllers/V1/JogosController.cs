@@ -74,6 +74,7 @@ namespace API.CatalogoJogos.Controllers.V1
             {
                 var jogo = await _jogoService.Inserir(jogoInputModel);
                 return CreatedAtRoute("ObterId", new { idJogo = jogo.Id }, jogo);
+                // Retorna o metodo Get com o valor como parâmetro
                 // return CreatedAtAction(nameof(Obter), new { idJogo = jogo.Id }, jogo);
             }
             catch (JogoJaCadastradoException ex)
