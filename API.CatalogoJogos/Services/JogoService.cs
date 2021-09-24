@@ -26,7 +26,6 @@ namespace API.CatalogoJogos.Services
         /// </remarks>
         /// <param name="pagina">Indica qual página está sendo consultada.</param>
         /// <param name="quantidade">Indica a quantidade de registros por página. </param>
-        /// <param name="quantidade"></param>
         /// <returns>Uma lista de jogos localizados</returns>
         public async Task<List<JogoViewModel>> Obter(int pagina, int quantidade)
         {
@@ -43,7 +42,7 @@ namespace API.CatalogoJogos.Services
         /// <summary>
         /// Busca um determinado jogo procurasndo pelo seu Id
         /// </summary>
-        /// <param name="idJogo">Id do jogo buscado</param>
+        /// <param name="id">Id do jogo buscado</param>
         /// <returns>Os dados do jogo localizado</returns>
         public async Task<JogoViewModel> Obter(Guid id)
         {
